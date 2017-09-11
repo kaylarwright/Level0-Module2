@@ -3,12 +3,15 @@
 
 package conditionals;
 
+import javax.swing.JOptionPane;
+
 public class TheRiddler {
 
 	public static void main(String[] args) {
 
 		// 1. Make a variable to hold the score
-
+int score = 0;
+JOptionPane.showMessageDialog(null, score);
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
